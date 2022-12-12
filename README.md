@@ -11,3 +11,9 @@ You can use mongostat to get a quick overview of the MongoDB instance with infor
 2- **mongotop**
 The mongotop command gives you information on MongoDB’s read and write operations, exposed in read time and printed by default, every second.
 
+There are also commands that you can run from within the MongoDB instance itself including
+
+**serverStatus** – returns the general status of the database,
+**dbStats** – returns the storage statistics for a selected database,
+**collStats** – returns the statistics on the collection level,
+**replSetGetStatus** – returns the status of the replica set from the perspective of local MongoDB server on which you will run the command.
