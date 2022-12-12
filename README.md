@@ -7,6 +7,7 @@ MongoDB provides two very useful commands to check its health and status:
 
 1- **mongostat**
 You can use mongostat to get a quick overview of the MongoDB instance with information about the number of operations, usage, size, and network utilization.
+
 2- **mongotop**
 The mongotop command gives you information on MongoDB’s read and write operations, exposed in read time and printed by default, every second.
 
